@@ -76,12 +76,6 @@ public final class SlimefinderPlugin extends JavaPlugin implements Listener
 		ItemStack itemInHand = player.getItemInHand();
 		Material materialInHand = itemInHand.getType();
 		Block clickedBlock = event.getClickedBlock();
-		Material clickedBlockType = null;
-
-		if(clickedBlock != null)
-			clickedBlockType = clickedBlock.getType();
-		else
-			clickedBlockType = Material.AIR;
 
 		if(action == Action.LEFT_CLICK_BLOCK && clickedBlock != null && materialInHand == wandMaterial)
 		{
