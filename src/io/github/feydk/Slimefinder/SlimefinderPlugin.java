@@ -50,7 +50,7 @@ public final class SlimefinderPlugin extends JavaPlugin implements Listener
 			return true;
 		}
 
-		if (args.length > 1)
+		if(args.length > 0)
 			return false;
 
 		Chunk chunk = player.getWorld().getChunkAt(player.getLocation());
