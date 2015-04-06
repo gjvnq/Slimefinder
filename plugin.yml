@@ -1,0 +1,14 @@
+name: Slimefinder
+description: Tells you if the chunk you are standing in is a slime chunk
+author: feydk
+version: 0.1
+main: io.github.feydk.Slimefinder.SlimefinderPlugin
+commands:
+  slime:
+    description: Tells you if the chunk you are standing in is a slime chunk
+    usage: /<command>
+    permission: slimefinder.slime
+permissions:
+  slimefinder.slime:
+    description: Use the /slime command to detect a slime chunk
+    default: op
