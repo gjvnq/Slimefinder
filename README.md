@@ -8,3 +8,8 @@ http://i.imgur.com/6KAG1iB.png
 
 Screenshot of negative result:
 http://i.imgur.com/o97WPOj.png
+
+Ideas for improvements:
+* If positive result, highlight the chunk with slime blocks and possibly particle effects.
+* Add an option for enabling cooldown.
+* Maybe tie in with common economy plugins and have a chunk check cost something.
