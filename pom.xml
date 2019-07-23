@@ -4,7 +4,7 @@
 
   <groupId>io.github.feydk</groupId>
   <artifactId>Slimefinder</artifactId>
-  <version>0.2-SNAPSHOT</version>
+  <version>0.2</version>
   <packaging>jar</packaging>
 
   <name>Slimefinder</name>
@@ -58,6 +58,9 @@
   </dependencies>
 
   <build>
+    <sourceDirectory>
+      src
+    </sourceDirectory>
     <resources>
       <resource>
         <directory>src/main/resources</directory>
