@@ -1,8 +1,9 @@
 name: Slimefinder
 description: Tells you if the chunk you are standing in is a slime chunk
-author: feydk
+author: feydk and gjvnq
 version: 0.2
 main: io.github.feydk.Slimefinder.SlimefinderPlugin
+api-version: 1.14
 commands:
   slime:
     description: Tells you if the chunk you are standing in is a slime chunk

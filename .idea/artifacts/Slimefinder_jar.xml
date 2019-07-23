@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="Slimefinder:jar">
+    <output-path>$PROJECT_DIR$/test/plugins</output-path>
+    <root id="archive" name="Slimefinder.jar">
+      <element id="module-output" name="Slimefinder" />
+    </root>
+  </artifact>
+</component>
