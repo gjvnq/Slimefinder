@@ -1,6 +1,8 @@
 # Slimefinder
 A Bukkit/Spigot plugin. Enables players to detect slime chunks.
 
+Ported to 1.14.4 by gjvnq.
+
 Players punch the ground with a slime ball (which item is the "wand" can be configured). Then the player is simply told if the chunk is a slime chunk or not.
 
 Screenshot of positive result:
